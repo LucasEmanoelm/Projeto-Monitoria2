@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definindo a codificação de caracteres para UTF-8 para suportar caracteres especiais -->
+    <meta charset="UTF-8">
+    
+    <!-- Meta tag para tornar o site responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página, exibido na aba do navegador -->
+    <title>Monitoring Solutions - Login</title>
+    
+    <!-- Inclusão do arquivo CSS para estilizar a página de login -->
+    <link href="login.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!-- Container principal para o login -->
+    <div class="login-container">
+        <!-- Logo do sistema, com uma imagem do arquivo "logo.jpg" -->
+        <img src="img/logo.jpg" alt=""/>
+        
+        <!-- Título principal da página de login -->
+        <h2>Monitoring Solutions</h2>
+        
+        <!-- Formulário de login com método POST para enviar dados ao arquivo login.jsp -->
+        <form name="frmLogin" method="post" action="login.jsp">
+            <!-- Grupo de entrada para o campo de login -->
+            <div class="input-group">
+                <!-- Label do campo de login (não está visível, mas ajuda na acessibilidade) -->
+                <label for="inputLogin"></label>
+                
+                <!-- Campo de entrada para o nome de usuário -->
+                <input type="text" id="inputLogin" name="login" class="form-control" placeholder="Nome de usuário" required autofocus>
+            </div>
+            
+            <!-- Grupo de entrada para o campo de senha -->
+            <div class="input-group">
+                <!-- Label do campo de senha (também não visível, mas para acessibilidade) -->
+                <label for="inputPw"></label>
+                
+                <!-- Campo de entrada para a senha (com tipo "password" para ocultar o texto digitado) -->
+                <input type="password" id="inputPw" name="pw" class="form-control" placeholder="Senha" required>
+            </div>
+            
+            <!-- Botão para submeter o formulário -->
+            <button type="submit" class="btn">INICIAR SESSÃO</button>
+        </form>
+    </div>
+</body>
+</html>
+

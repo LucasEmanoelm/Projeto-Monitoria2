@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <!-- Título da página exibido na aba do navegador -->
+        <title>Monitoring Solutions</title>
+        
+        <!-- Definindo a codificação de caracteres para UTF-8 para suportar caracteres especiais -->
+        <meta charset="UTF-8">
+        
+        <!-- Meta tag para tornar o site responsivo em dispositivos móveis -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Inclusão do arquivo CSS para estilizar a página de exclusão -->
+        <link href="excluir.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- Título principal da página, que informa ao usuário o propósito da página -->
+        <h3>Excluir Avaliação</h3>
+        
+        <!-- Formulário para exclusão de avaliação, com método POST -->
+        <form method="post" action="excluir.jsp">
+            <!-- Label para o campo de ID da avaliação, informando ao usuário o que ele deve fazer -->
+            <label for="id">Digite o ID da avaliação que deseja excluir:</label><br>
+            
+            <!-- Campo de texto para o usuário inserir o ID da avaliação a ser excluída -->
+            <input type="text" name="id" id="id" placeholder=""><p> <!-- Placeholder vazio, indicando onde o usuário deve digitar -->
+            
+            <!-- Botão para submeter o formulário, que realizará a exclusão -->
+            <input type="submit" value="Excluir">
+        </form>
+    </body>
+</html>
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <!-- Título da página exibido na aba do navegador -->
+        <title>Monitoring Solutions</title>
+        
+        <!-- Definindo a codificação de caracteres para UTF-8 para suportar caracteres especiais -->
+        <meta charset="UTF-8">
+        
+        <!-- Meta tag para tornar o site responsivo em dispositivos móveis -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Inclusão do arquivo CSS para estilizar a página de consulta -->
+        <link href="consultar.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- Título principal da página, informando ao usuário a finalidade da página -->
+        <h3>Consultar Avaliação</h3>
+        
+        <!-- Formulário para consulta de avaliação, com método POST -->
+        <form method="post" action="consultaId.jsp">
+            <!-- Texto explicativo e campo para o usuário digitar o ID da avaliação que deseja consultar -->
+            Digite o ID da avaliação que deseja consultar: <input type="text" name="id"> <p>
+            
+            <!-- Botão para submeter o formulário, que realizará a consulta -->
+            <input type="submit" value="Consultar">
+        </form>
+        
+    </body>
+</html>
+
